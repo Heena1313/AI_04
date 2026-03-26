@@ -1,0 +1,5 @@
+(do ((a 0 (+ a 2))
+     (b 20 (- b 2)))
+    ((= a b))
+  (format t "~% a = ~d  b = ~d" a b))
+(write-line "")
